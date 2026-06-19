@@ -1,4 +1,4 @@
-const CACHE_NAME = "ototan-english-v1";
+const CACHE_NAME = "ototan-english-v2";
 const APP_FILES = [
   "./",
   "./index.html",
