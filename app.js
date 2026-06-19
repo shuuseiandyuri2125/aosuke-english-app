@@ -484,7 +484,7 @@ function escapeHtml(value) {
 function loadProgress() {
   const today = new Date().toISOString().slice(0, 10);
   try {
-    const saved = JSON.parse(localStorage.getItem("aosuke-word-progress") || "null");
+    const saved = JSON.parse(localStorage.getItem("ototan-word-progress") || "null");
     if (saved && saved.words && saved.today) return saved;
   } catch {
     // Broken local data should not stop practice.
@@ -493,7 +493,7 @@ function loadProgress() {
 }
 
 function saveProgress() {
-  localStorage.setItem("aosuke-word-progress", JSON.stringify(state.progress));
+  localStorage.setItem("ototan-word-progress", JSON.stringify(state.progress));
 }
 
 function registerServiceWorker() {

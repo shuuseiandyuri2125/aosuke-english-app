@@ -1,4 +1,4 @@
-const CACHE_NAME = "aosuke-english-v1";
+const CACHE_NAME = "ototan-english-v1";
 const APP_FILES = [
   "./",
   "./index.html",
